@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "321645917427",
+    "project_id": "travadds-39c38",
+    "storage_bucket": "travadds-39c38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321645917427:android:57054c8f097fbd38f47386",
+        "android_client_info": {
+          "package_name": "com.mycompany.travaddsnewapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG5OFNlAkBSNjOCngwQVMk5KHttW-O41Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

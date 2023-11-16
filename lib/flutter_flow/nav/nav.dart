@@ -94,9 +94,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => HomePageWidget(),
         ),
         FFRoute(
-          name: 'servicePage',
-          path: '/servicePage',
-          builder: (context, params) => ServicePageWidget(),
+          name: 'planPage',
+          path: '/planPage',
+          builder: (context, params) => PlanPageWidget(),
         ),
         FFRoute(
           name: 'demo',

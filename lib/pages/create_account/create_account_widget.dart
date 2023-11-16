@@ -480,6 +480,11 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget> {
                                                 fontSize: 16.0,
                                                 fontWeight: FontWeight.w600,
                                               ),
+                                          mouseCursor: SystemMouseCursors.click,
+                                          recognizer: TapGestureRecognizer()
+                                            ..onTap = () async {
+                                              context.pushNamed('login');
+                                            },
                                         )
                                       ],
                                       style: FlutterFlowTheme.of(context)
